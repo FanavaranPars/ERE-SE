@@ -1,0 +1,9 @@
+{
+    "name": "training",
+    "STEP_SHOW" : 3000,
+    "NUM_EPOCH" : 100,
+    "GRAD_STEP" : 1,
+    "LEARNING_RATE": 5e-5,
+    "n_iters": 250000,
+    "IS_FINETUNE": true
+}

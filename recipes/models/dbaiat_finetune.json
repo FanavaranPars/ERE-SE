@@ -1,0 +1,6 @@
+{
+    "name": "dbaiat",
+    "param_best_path" : "./checkpoints/dbaiat_finetune.pt",
+    "param_save_path" : "./checkpoints/dbaiat_finetune.pt",
+    "loss_save_path" : "./train_result/dbaiat_losses_finetune.txt"
+}

@@ -1,0 +1,24 @@
+{
+    "train":
+    {
+        "name": "train",
+        "SAMPLE_RATE" : 16000,
+        "MAX_LENGTH" : 160000,
+        "MAX_NOISE_N" : 2, 
+        "T_REVERB" : -1,
+        "MIN_SNR" : -14,
+        "BATCH_SIZE" : 16,
+        "NUM_WORKER": 16, 
+        "PIN_MEMORY": true,
+        "TRAINING": true
+    },
+    "evaluation":
+    {
+        "name": "evaluation",
+        "SAMPLE_RATE" : 16000,
+        "BATCH_SIZE" : 64,
+        "NUM_WORKER": 16, 
+        "PIN_MEMORY": true
+    }
+}
+

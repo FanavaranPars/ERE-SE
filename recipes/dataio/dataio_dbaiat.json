@@ -1,0 +1,29 @@
+{
+    "train":
+    {
+        "name": "train",
+        "SAMPLE_RATE" : 16000,
+        "MAX_LENGTH" : 48000,
+        "MAX_NOISE_N" : 2, 
+        "T_REVERB" : -1,
+        "MIN_SNR" : 0,
+        "BATCH_SIZE" : 3,
+        "NUM_WORKER": 20, 
+        "PIN_MEMORY": true,
+        "TRAINING": true
+    },
+    "test":
+    {
+        "name": "test",
+        "SAMPLE_RATE" : 16000,
+        "MAX_LENGTH" : 48000,
+        "MAX_NOISE_N" : 2, 
+        "T_REVERB" : -1,
+        "MIN_SNR" : 0,
+        "BATCH_SIZE" : 32,
+        "NUM_WORKER": 16, 
+        "PIN_MEMORY": true,
+        "TRAINING": false
+    }
+}
+
