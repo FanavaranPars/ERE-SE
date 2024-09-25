@@ -5,9 +5,6 @@ This is the repository of speech enhancement modules which have been prepared by
 Two models,DB-AIAT and GaGNet,have been trained and evaluated for the task of enhancement. Experimental results on Voice Bank + DEMAND
 demonstrate that DB-AIAT and GaGNet yield state-of-the-art performance.
 
-## Checkpoints
-Download the checkpoints [here](https://huggingface.co/FanavaranPars/ERI-SE).
-
 The following is a simple guide for training and evaluating these mentioned models:
 
  ## How to train
@@ -33,6 +30,9 @@ You can choose your target model from ['dbaiat', 'gagnet']
 
 **Notice**: The target device can be choosen from ['cuda','cpu']. It is set to 'cuda' in default. It is recommended to use 'cuda' (Do not set device in the input arguemnts).
 
+
+## Checkpoints
+Download the checkpoints [here](https://huggingface.co/FanavaranPars/ERI-SE).
 
 ### DB-AIAT
 It is needed to run a simple command below in the terminal:
